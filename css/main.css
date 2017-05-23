@@ -1,0 +1,103 @@
+header{
+  position: fixed !important;
+  background-color: #fff;
+  z-index: 5;
+}
+.ajuste{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+#seccion1{
+  background-image: url("../img/taxi.jpg");
+  background-size:cover;
+  background-position: bottom;
+  width: 100%;
+  padding: 0 !important;
+}
+.form{
+  background-color: #f7b617;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  padding: 3% 2% !important;
+  color: #fff;
+  font-size: 1.3vw !important;
+}
+.form button{
+  font-size:1vw !important;
+  border-radius: -1%;
+}
+#seccion2{
+  background-color:#f7b617;
+  width: 100%;
+  padding-left: 0 !important;
+}
+#secCelular{
+  border: 2px solid #fff;
+  margin: 2% 0 !important;
+  border-left: none;
+  color: #fff;
+  font-size: 1.5vw;
+}
+h2{
+  font-size:2vw;
+}
+#secCelular img{
+  margin: 5%;
+  width: 75%;
+}
+#seccion3{
+  width: 100%;
+  background-size:cover;
+  background-position: bottom;
+  background-image: url("../img/conduce.jpg");
+}
+#seccion3 button{
+  border-radius: -1%;
+  background-color: #f7b617;
+  color: #fff;
+}
+.conduce{
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding: 3% 2% !important;
+
+}
+.transparente{
+  margin-top: 25%;
+  margin-bottom: 40%;
+  padding: 3% 2% !important;
+  color: #fff;
+  font-size: 1.3vw !important;
+}
+#seccion4{
+  background-color:#f7b617;
+  width: 100%;
+  padding: 2% !important;
+}
+#seccion4 .mapa{
+  border: 2px solid #fff;
+  padding: 1%;
+}
+.orden{
+  display: inline-flex;
+  width: 80%;
+}
+#mapa{
+  width: 100%;
+}
+#seccion4 form{
+  margin-top: 20%;
+}
+#seccion4 input{
+  background-color: #f7b617;
+  border-radius: -1%;
+  border: 2px solid #fff;
+  content: attr(placeholder): #fff;
+}
+#seccion5{
+  background-color:#211e1e;
+  color: #fff;
+  width: 100%;
+  padding: 2% !important;
+}
