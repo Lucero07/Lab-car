@@ -2,6 +2,7 @@ header{
   position: fixed !important;
   background-color: #fff;
   z-index: 5;
+  padding: .5%;
 }
 .ajuste{
   margin-left: 0 !important;
@@ -82,6 +83,7 @@ h2{
 .orden{
   display: inline-flex;
   width: 80%;
+  border-radius: 5% !important;
 }
 #mapa{
   width: 100%;
@@ -100,4 +102,37 @@ h2{
   color: #fff;
   width: 100%;
   padding: 2% !important;
+
+
+}
+#seccion5 a{
+align-content: flex-start;
+  color: #FFF;
+}
+.ordenImg{
+  padding-top: 7%;
+}
+.ordenImg img{
+  width: 100%;
+}
+.list{
+  text-align: left;
+  line-height: 2;
+}
+.list dl{
+  line-height:4vw;
+}
+.user{
+  border-radius: 50%;
+}
+.mod{
+  background-color: #2eb58a !important;
+  text-align: center;
+}
+.botonModal{
+  background-color: #f7b617;
+}
+.negro{
+  background-color: #000;
+  color: #fff;
 }
